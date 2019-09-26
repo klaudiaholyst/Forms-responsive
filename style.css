@@ -1,0 +1,363 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('img/Hot vs Cold 2560x1440.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 70%;
+    font-family: 'Titillium Web', sans-serif;
+    
+}
+
+h1 {
+
+    color: white;
+    font-weight: 500;
+    text-shadow: 1px 1.732px 2px rgba(43, 1, 0, 0.75);
+    text-align: center;
+    margin: 40px 0 20px;
+
+}
+
+::-webkit-input-placeholder {
+    font-size: 16px;
+    color: #afafaf;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+}
+
+div.wrapper {
+    width: 1050px;
+    margin: 0 auto;
+
+
+}
+
+header {
+    margin: 55px 271px 0px 350px;
+}
+
+header img {
+    width: 429px;
+    position: relative;
+    opacity: 0.3;
+}
+
+
+div.flexWrap {
+    display: flex;
+    margin: 25px auto 25px auto;
+    justify-content: space-around;
+}
+
+div.flexElement {
+    flex: 50%;
+    width: 420px;
+    /* overflow: hidden; */
+}
+
+div.flexElement:last-child img {
+    width: 100%;
+}
+
+div.formWrapper {
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, 0.23);
+    padding: 20px;
+}
+
+div.form {
+    border-radius: 3px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.13);
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+input#register_username {
+    background: url(img/glyphicons_003_user.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
+    background-position: 1em 50%, 60px 50%;
+}
+
+input#register_password {
+    background: url(img/glyphicons_203_lock.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
+    background-position: 1em 50%, 60px 50%;
+}
+
+input#register_confirmPassword {
+    background: url(img/glyphicons_203_lock.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
+    background-position: 1em 50%, 60px 50%;
+}
+
+input#register_email {
+    background: url(img/glyphicons_010_envelope.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
+    background-position: 1em 50%, 60px 50%;
+}
+
+select#register_location {
+    background: url(img/glyphicons_242_google_maps.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
+    background-position: 1em 50%, 60px 50%;
+    appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    margin-bottom: 14px;
+}
+
+div.selectDiv {
+    position: relative;
+}
+
+div.selectDiv:after {
+    position: absolute;
+    content: url('img/Shape\ 11.png');
+    color: black;
+    right: 15px;
+    top: 10px;
+    pointer-events: none;
+
+}
+
+input,
+select, textarea{
+    width: 100%;
+    font-size: 16px;
+    margin: 0 0 20px;
+    height: 40px;
+    padding-left: 81px;
+    font-family: 'Titillium Web', sans-serif;
+    border-radius: 3px;
+    box-shadow: 1px 1.732px 0px #ffffff;
+    background-image: linear-gradient(0deg, #f4f4f4 0%, #f8f8f8 100%);
+    border: 1px solid #c6c6c6;
+
+    
+}
+
+select {
+    color: #afafaf;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+}
+
+input#register_checkbox {
+    font-family: 'Titillium Web', sans-serif;
+    width: 24px;
+    height: 24px;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+
+
+}
+
+input[type="checkbox"]+label {
+    display: block;
+    position: relative;
+    font-size: 17px;
+    color: #afafaf;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    height: 23px;
+    margin-bottom: 15px;
+    cursor: pointer;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+input[type="checkbox"]+label:before {
+    content: "";
+    display: inline-block;
+    width: 23px;
+    height: 23px;
+    margin: 0 15px -5px 0;
+    border: 1px solid #c6c6c6;
+    border-radius: 3px;
+    box-shadow: 1px 1.732px 0px #ffffff;
+    background-image: linear-gradient(0deg, #f4f4f4 0%, #f8f8f8 100%);
+}
+
+input[type="checkbox"]:checked+label:after {
+    box-sizing: border-box;
+    content: " ";
+    position: absolute;
+    top: 6px;
+    left: 6px;
+
+    display: block;
+    border-radius: 3px;
+    box-shadow: 0.5px 0.866px 0px #ffffff;
+    background-image: linear-gradient(0deg, #71b80d 0%, #9ad123 100%);
+    width: 13px;
+    height: 13px;
+    overflow: hidden;
+}
+input#sign_checkbox+label{
+    margin-top:10px;
+}
+
+button {
+    width: 340px;
+    height: 50px;
+    border-radius: 3px;
+    box-shadow: 0.5px 0.866px 0px #ffffff;
+    background-image: linear-gradient(0deg, #7cc01e 0%, #a3d741 100%);
+    border: 1px solid #3b9a00;
+
+    font-size: 24px;
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 500;
+    text-shadow: 0.559px 0.829px 0px #51850e;
+}
+button:hover{
+    cursor: pointer;
+    background-image: linear-gradient(0deg, #a3d741 0%, #7cc01e 100%);
+}
+button.short{
+    width: 150px;
+}
+div.flex2elements{
+    display: flex;
+    justify-content: space-between;
+}
+
+button.red{
+background-image: linear-gradient(0deg, #ee3645 0%, #f55f71 100%);
+border: 1px solid #a2202a;
+}
+button.red:hover{
+    background-image: linear-gradient(0deg, #f55f71 0%,#ee3645  100%);
+}
+
+input#subscribe_email{
+    background: url(img/glyphicons_010_envelope.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
+    background-position: 1em 50%, 60px 50%;
+}
+
+input#email_name{
+    background: url(img/glyphicons_003_user.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
+    background-position: 1em 50%, 60px 50%;
+}
+
+input#email_email{
+    background: url(img/glyphicons_010_envelope.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
+    background-position: 1em 50%, 60px 50%;
+}
+
+textarea#email_message{
+background:linear-gradient(#f6f6f6, #f0f0f0);
+padding: 1em;
+height: 230px;
+width:340px;
+resize: none;
+
+    
+}
+
+input#sign_username{
+    background: url(img/glyphicons_003_user.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
+    background-position: 1em 50%, 60px 50%;
+}
+
+input#sign_password{
+    background: url(img/glyphicons_203_lock.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
+    background-position: 1em 50%, 60px 50%;
+}
+
+input#recover_email{
+    background: url(img/glyphicons_010_envelope.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
+    background-position: 1em 50%, 60px 50%;
+}
+
+input#recover_phone{
+    background: url(img/glyphicons_139_phone.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
+    background-position: 1em 50%, 60px 50%;
+ 
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+
+img#bottom_logo{
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 350px;
+    opacity: 0.5;
+    
+}
+
+@media(max-width: 1050px){
+    div.flexWrap{
+        display:block;
+        margin:0 auto;
+    }
+    div.flexElement{
+        margin:0 auto;
+    }
+    div.wrapper{
+        width:100%;
+    }
+    
+    header {
+        width:100%;
+margin:55px auto;
+    }
+    header img{
+        display: block;
+        margin:0 auto;
+    }
+}
+
+@media(max-width:450px){
+    header img{
+        width:90%;
+    }
+    div.formWrapper{
+        padding:10px;
+    }
+    div.flexElement{
+        width:100%;
+    }
+    button, textarea#email_message{
+        width:100%;
+    }
+    img#bottom_logo{
+        width:80%;
+    }
+    h1{
+        font-size: 1.5em;
+    }
+    button{
+        font-size: 1em;
+    }
+    div.registerForm button{
+        margin-top:1em;
+    }
+    textarea#email_message{
+        height: 100px;
+    }
+}
+
+@media(max-width:390px){
+button, button.short{
+    width:100px;
+    height: 40px;
+    margin:0 auto;
+   
+
+}
+div.form{
+    text-align: center;
+}
+
+
+}

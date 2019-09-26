@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Titillium+Web:300,500&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <img src="img/logo.png" alt="">
+        </header>
+
+
+        <main>
+            <div class="flexWrap">
+                <!-- LEFT -->
+                <div class="left">
+                    <!-- REGISTER -->
+                    <div class="flexElement">
+
+
+                        <h1>Register Form</h1>
+                        <div class="formWrapper">
+                            <div class="form registerForm">
+
+                                <input id="register_username" type="text" class="text" placeholder="Username">
+                                <input id="register_password" type="text" class="text" placeholder="Password">
+                                <input id="register_confirmPassword" type="password" class="password"
+                                    placeholder="Confirm Password">
+                                <input id="register_email" type="email" class="email" placeholder="Email">
+                                <div class="selectDiv"><select id="register_location" name="" id="">
+                                        <option value="0">Your Location</option>
+                                        <option value="1">Europe</option>
+                                        <option value="2">Asia</option>
+                                        <option value="3">North America</option>
+                                        <option value="4">South America</option>
+                                        <option value="5">Australia</option>
+                                        <option value="6">Africa</option>
+                                    </select></div>
+
+                                <input type="checkbox" id="register_checkbox">
+                                <label for="register_checkbox">I have read and accept the terms of use.</label>
+                                <button>Sign up</button>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+
+                    <!-- SEND EMAIL -->
+                    <div class="flexElement">
+
+
+                        <h1>Send Email</h1>
+                        <div class="formWrapper">
+                            <div class="form emailForm">
+
+                                <input id="email_name" type="text" class="text" placeholder="Your Name">
+                                <input id="email_email" type="email" class="email" placeholder="Your Email">
+                                <textarea id="email_message" type="text" class="text" placeholder="Type your message..."></textarea>
+
+                                <input type="checkbox" id="email_checkbox">
+                                <label for="email_checkbox">Send a copy to my Email.</label>
+                                <button>Send Email</button>
+
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="right">
+                    <!-- SIGN IN -->
+                    <div class="flexElement">
+                        <h1>Sign In Form</h1>
+                        <div class="formWrapper">
+                            <div class="form">
+                                <input type="text" id="sign_username" placeholder="Username">
+                                <input type="password" id="sign_password" placeholder="Password">
+                                <div class="flex2elements"><input type="checkbox" id="sign_checkbox"><label for="sign_checkbox">Remember me</label>
+                                <button class='short'>Sign in</button></div>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- RECOVER FORM -->
+                    <div class="flexElement">
+                        <h1>Recover Form</h1>
+                        <div class="formWrapper">
+                            <div class="form">
+                                <input type="email" id="recover_email" placeholder="Enter your Email">
+                                <input type="number" id="recover_phone" placeholder="Enter your Phone number">
+                                <div class="flex2elements"><button class='short'>Send</button>
+                                    <button class='short'>Done</button></div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <!-- SUBSCRIBE -->
+                    <div class="flexElement">
+                        <h1>Subscribe Form</h1>
+                        <div class="formWrapper">
+                            <div class="form">
+                                <input type="email" id="subscribe_email" placeholder="Enter your Email">
+                                <div class="flex2elements"><button class="short">Subscribe</button>
+                                    <button class="short red">No, thanks</button></div>
+
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="flexElement"><img id="bottom_logo" src="img/logobottom.png" alt=""></div>
+                </div>
+
+
+            </div>
+
+        </main>
+    </div>
+
+</body>
+
+</html>
