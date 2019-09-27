@@ -164,6 +164,7 @@ input[type="checkbox"]+label {
     height: 23px;
     margin-bottom: 15px;
     cursor: pointer;
+    text-align: start;
 }
 
 input[type="checkbox"] {
@@ -173,6 +174,7 @@ input[type="checkbox"] {
 input[type="checkbox"]+label:before {
     content: "";
     display: inline-block;
+   
     width: 23px;
     height: 23px;
     margin: 0 15px -5px 0;
