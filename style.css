@@ -3,14 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
-
-.page {
-    background-image: url('img/background.png');
+html{ background-image: url('img/background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 70%;
     font-family: 'Titillium Web', sans-serif;
-
+}
+.page {
+   
+    width: 1050px;
+    margin: 0 auto;
 }
 
 .flex__title {
@@ -28,13 +30,6 @@
     color: #afafaf;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
-}
-
-.page__wrapper {
-    width: 1050px;
-    margin: 0 auto;
-
-
 }
 
 .page__banner {
