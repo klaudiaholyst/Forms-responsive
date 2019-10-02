@@ -36,7 +36,7 @@ html{ background-image: url('img/background.png');
     margin: 55px 271px 0px 350px;
 }
 
-.page__img {
+.top-logo {
     width: 429px;
     position: relative;
     opacity: 0.3;
@@ -310,7 +310,7 @@ input[type=number]::-webkit-outer-spin-button {
         margin: 0 auto;
     }
 
-    .page__wrapper {
+    .page {
         width: 100%;
     }
 
@@ -319,14 +319,14 @@ input[type=number]::-webkit-outer-spin-button {
         margin: 55px auto;
     }
 
-    .page__img {
+    .top-logo {
         display: block;
         margin: 0 auto;
     }
 }
 
 @media(max-width:450px) {
-    .page__img {
+    .top-logo {
         width: 90%;
     }
 
