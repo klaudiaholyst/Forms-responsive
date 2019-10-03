@@ -3,14 +3,16 @@
     margin: 0;
     box-sizing: border-box;
 }
-html{ background-image: url('img/background.png');
+
+html {
+    background-image: url('img/background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 70%;
     font-family: 'Titillium Web', sans-serif;
 }
+
 .page {
-   
     width: 1050px;
     margin: 0 auto;
 }
@@ -22,7 +24,6 @@ html{ background-image: url('img/background.png');
     text-shadow: 1px 1.732px 2px rgba(43, 1, 0, 0.75);
     text-align: center;
     margin: 40px 0 20px;
-
 }
 
 ::-webkit-input-placeholder {
@@ -42,7 +43,6 @@ html{ background-image: url('img/background.png');
     opacity: 0.3;
 }
 
-
 .input,
 .select,
 .textarea {
@@ -57,7 +57,8 @@ html{ background-image: url('img/background.png');
     background-image: linear-gradient(0deg, #f4f4f4 0%, #f8f8f8 100%);
     border: 1px solid #c6c6c6;
 }
-.form__textarea{
+
+.form__textarea {
     padding: 1em;
     height: 230px;
     width: 340px;
@@ -72,7 +73,6 @@ html{ background-image: url('img/background.png');
 
 .main__element {
     width: 420px;
-    /* overflow: hidden; */
 }
 
 .bottom-logo {
@@ -133,7 +133,6 @@ html{ background-image: url('img/background.png');
     right: 15px;
     top: 10px;
     pointer-events: none;
-
 }
 
 .select {
@@ -142,7 +141,6 @@ html{ background-image: url('img/background.png');
     font-weight: 300;
 }
 
-
 .checkbox {
     display: none;
     user-select: none;
@@ -150,7 +148,6 @@ html{ background-image: url('img/background.png');
     -moz-user-select: none;
     -ms-user-select: none;
 }
-
 
 .checkbox-label {
     display: block;
@@ -174,7 +171,6 @@ html{ background-image: url('img/background.png');
 .checkbox-label:before {
     content: "";
     display: inline-block;
-
     width: 23px;
     height: 23px;
     margin: 0 15px -5px 0;
@@ -210,7 +206,6 @@ input[type="checkbox"]:checked+label:after {
     box-shadow: 0.5px 0.866px 0px #ffffff;
     background-image: linear-gradient(0deg, #7cc01e 0%, #a3d741 100%);
     border: 1px solid #3b9a00;
-
     font-size: 24px;
     color: #ffffff;
     font-family: 'Titillium Web', sans-serif;
@@ -246,9 +241,7 @@ input[type="checkbox"]:checked+label:after {
     margin-left: 40px;
     width: 350px;
     opacity: 0.5;
-
 }
-
 
 @media(max-width: 1050px) {
     .main {
@@ -308,7 +301,6 @@ input[type="checkbox"]:checked+label:after {
     .btn--register {
         margin-top: 1em;
     }
-
 }
 
 @media(max-width:390px) {
@@ -323,6 +315,4 @@ input[type="checkbox"]:checked+label:after {
     .form {
         text-align: center;
     }
-
-
 }
