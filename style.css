@@ -93,24 +93,21 @@ html {
 }
 
 .input--username {
-    background: url(img/glyphicons_003_user.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
-    background-position: 1em 50%, 60px 50%;
+    background: url(img/glyphicons_003_user.png) no-repeat 1em 50%, url(img/Shape\ 5.png) no-repeat 60px 50%, linear-gradient(#f6f6f6, #f0f0f0);
+    
 }
 
 .input--password {
-    background: url(img/glyphicons_203_lock.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
-    background-position: 1em 50%, 60px 50%;
+    background: url(img/glyphicons_203_lock.png) no-repeat 1em 50%, url(img/Shape\ 5.png) no-repeat 60px 50%, linear-gradient(#f6f6f6, #f0f0f0);
 }
 
 
 .input--email {
-    background: url(img/glyphicons_010_envelope.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
-    background-position: 1em 50%, 60px 50%;
+    background: url(img/glyphicons_010_envelope.png) no-repeat 1em 50%, url(img/Shape\ 5.png) no-repeat 60px 50%, linear-gradient(#f6f6f6, #f0f0f0);
 }
 
 .select--location {
-    background: url(img/glyphicons_242_google_maps.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
-    background-position: 1em 50%, 60px 50%;
+    background: url(img/glyphicons_242_google_maps.png) no-repeat 1em 50%, url(img/Shape\ 5.png) no-repeat  60px 50%, linear-gradient(#f6f6f6, #f0f0f0);
     appearance: none;
     -moz-appearance: none;
     -webkit-appearance: none;
@@ -118,8 +115,7 @@ html {
 }
 
 .input--phone {
-    background: url(img/glyphicons_139_phone.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
-    background-position: 1em 50%, 60px 50%;
+    background: url(img/glyphicons_139_phone.png) no-repeat 1em 50%, url(img/Shape\ 5.png) no-repeat  60px 50%, linear-gradient(#f6f6f6, #f0f0f0);
 }
 
 .select-wrapper {
