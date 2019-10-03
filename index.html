@@ -22,25 +22,27 @@
                 <div class="main__wrapper">
                     <h2 class="main__subtitle">Register Form</h2>
                     <div class="main__form-wrapper">
-                        <form action="" class="form register">
+                        <form action="" class="form form--register">
                             <input class="input input--username" type="text" class="text" placeholder="Username">
                             <input class="input input--password" type="password" class="text" placeholder="Password">
                             <input class="input input--password" type="password" class="password"
                                 placeholder="Confirm Password">
                             <input class="input input--email" type="email" class="email" placeholder="Email">
-                            <div class="register__select"><select class="register__location select" name="">
+                            <div class="select-wrapper">
+                                <select class="select select--location " name="">
                                     <option value="0">Your Location</option>
                                     <option value="1">Europe</option>
-                                    <optionclassalue="2">Asia</option>
+                                    <option value="2">Asia</option>
                                         <option value="3">North America</option>
                                         <option value="4">South America</option>
                                         <option value="5">Australia</option>
                                         <option value="6">Africa</option>
-                                </select></div>
-                            <input type="checkbox" class="register__checkbox input checkbox" id="register__checkbox">
-                            <label for="register__checkbox" class="checkbox__label ">I have read and accept the terms of
+                                </select>
+                            </div>
+                            <input type="checkbox" class="input checkbox" id="checkbox-register">
+                            <label for="checkbox-register" class="checkbox-label ">I have read and accept the terms of
                                 use.</label>
-                            <button class="btn register__btn" type="submit">Sign up</button>
+                            <button class="btn btn--register" type="submit">Sign up</button>
                         </form>
                     </div>
                 </div>
@@ -48,13 +50,13 @@
                 <div class="main__wrapper">
                     <h2 class="main__subtitle">Send Email</h2>
                     <div class="main__form-wrapper">
-                        <form action="" class="form email">
+                        <form action="" class="form form--email">
                             <input class="input input--username" type="text" class="text" placeholder="Your Name">
                             <input class="input input--email" type="text" class="text" placeholder="Your Email">
-                            <textarea class="email__message textarea" type="text" class="text"
+                            <textarea class="form__textarea textarea" type="text" class="text"
                                 placeholder="Type your message..."></textarea>
-                            <input type="checkbox" class="email__checkbox input checkbox" id="email__checkbox">
-                            <label for="email__checkbox" class="checkbox__label">Send a copy to my Email.</label>
+                            <input type="checkbox" class="input checkbox" id="checkbox-email">
+                            <label for="checkbox-email" class="checkbox-label">Send a copy to my Email.</label>
                             <button class="btn" type="submit">Send Email</button>
                         </form>
                     </div>
@@ -66,12 +68,12 @@
                 <div class="main__wrapper">
                     <h2 class="main__subtitle">Sign In Form</h2>
                     <div class="main__form-wrapper">
-                        <form action="" class="form sign">
+                        <form action="" class="form form--sign">
                             <input type="text" class="input input--username" placeholder="Username">
                             <input type="password" class="input input--password" placeholder="Password">
                             <div class="two-btns">
-                                <input type="checkbox" id="sign__checkbox" class="sign__checkbox checkbox">
-                                <label for="sign__checkbox" class="sign__label checkbox__label">Remember me</label>
+                                <input type="checkbox" id="checkbox-sign" class="checkbox">
+                                <label for="checkbox-sign" class="checkbox-label checkbox-label--sign">Remember me</label>
                                 <button type="submit" class='btn btn--short'>Sign in</button>
                             </div>
                         </form>
@@ -80,7 +82,7 @@
                 <div class="main__wrapper">
                     <h2 class="main__subtitle">Recover Form</h2>
                     <div class="main__form-wrapper">
-                        <form action="" class="form recover">
+                        <form action="" class="form form--recover">
                             <input class="input input--username" type="text" class="text" placeholder="Your Name">
                             <input class="input input--phone" type="text" class="text"
                                 placeholder="Enter your phone number">
@@ -95,12 +97,12 @@
                 <div class="main__wrapper">
                     <h2 class="main__subtitle">Subscribe Form</h2>
                     <div class="main__form-wrapper">
-                        <form action="" class="form subscribe">
+                        <form action="" class="form form--subscribe">
                             <input class="input input--email" type="email" class="text"
                                 placeholder="Enter your Email">
                             <div class="two-btns">
                                 <button class="btn btn--short" type="submit">Subscribe</button>
-                                <button class="btn btn--short btn-red" type="submit">No, thanks</button>
+                                <button class="btn btn--short btn--red" type="submit">No, thanks</button>
                             </div>
                         </form>
                     </div>
