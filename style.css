@@ -15,7 +15,7 @@ html{ background-image: url('img/background.png');
     margin: 0 auto;
 }
 
-.flex__title {
+.main__subtitle {
     font-size: 32px;
     color: white;
     font-weight: 500;
@@ -60,13 +60,13 @@ html{ background-image: url('img/background.png');
 
 
 
-.flex {
+.main {
     display: flex;
     margin: 25px auto 25px auto;
     justify-content: space-around;
 }
 
-.flex__element {
+.main__element {
     width: 420px;
     /* overflow: hidden; */
 }
@@ -75,7 +75,7 @@ html{ background-image: url('img/background.png');
     width: 100%;
 }
 
-.flex__form-wrapper {
+.main__form-wrapper {
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.23);
     padding: 20px;
@@ -88,27 +88,23 @@ html{ background-image: url('img/background.png');
     padding: 20px;
 }
 
-.register__username {
+.input--username {
     background: url(img/glyphicons_003_user.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
     background-position: 1em 50%, 60px 50%;
 }
 
-.register__password {
+.input--password {
     background: url(img/glyphicons_203_lock.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
     background-position: 1em 50%, 60px 50%;
 }
 
-.register__confirmPassword {
-    background: url(img/glyphicons_203_lock.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
-    background-position: 1em 50%, 60px 50%;
-}
 
-.register__email {
+.input--email {
     background: url(img/glyphicons_010_envelope.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
     background-position: 1em 50%, 60px 50%;
 }
 
-.register__location {
+.input--location {
     background: url(img/glyphicons_242_google_maps.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
     background-position: 1em 50%, 60px 50%;
     appearance: none;
@@ -117,6 +113,10 @@ html{ background-image: url('img/background.png');
     margin-bottom: 14px;
 }
 
+.input--phone {
+    background: url(img/glyphicons_139_phone.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
+    background-position: 1em 50%, 60px 50%;
+}
 
 .register__select {
     position: relative;
@@ -147,8 +147,6 @@ html{ background-image: url('img/background.png');
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
-
-
 }
 
 .checkbox__label {
@@ -240,57 +238,6 @@ input#sign_checkbox+label {
     background-image: linear-gradient(0deg, #f55f71 0%, #ee3645 100%);
 }
 
-.subscribe__email {
-    background: url(img/glyphicons_010_envelope.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
-    background-position: 1em 50%, 60px 50%;
-}
-
-.email__name {
-    background: url(img/glyphicons_003_user.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
-    background-position: 1em 50%, 60px 50%;
-}
-
-.email__email {
-    background: url(img/glyphicons_010_envelope.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
-    background-position: 1em 50%, 60px 50%;
-}
-
-.email__message {
-    background: linear-gradient(#f6f6f6, #f0f0f0);
-    padding: 1em;
-    height: 230px;
-    width: 340px;
-    resize: none;
-}
-
-.sign__username {
-    background: url(img/glyphicons_003_user.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
-    background-position: 1em 50%, 60px 50%;
-}
-
-.sign__password {
-    background: url(img/glyphicons_203_lock.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
-    background-position: 1em 50%, 60px 50%;
-}
-
-.recover__email {
-    background: url(img/glyphicons_010_envelope.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
-    background-position: 1em 50%, 60px 50%;
-}
-
-.recover__phone {
-    background: url(img/glyphicons_139_phone.png) no-repeat, url(img/Shape\ 5.png) no-repeat, linear-gradient(#f6f6f6, #f0f0f0);
-    background-position: 1em 50%, 60px 50%;
-
-}
-
-/* 
-input[type=number]::-webkit-inner-spin-button, 
-input[type=number]::-webkit-outer-spin-button { 
-  -webkit-appearance: none; 
-  margin: 0; 
-} */
-
 .bottom-logo {
     margin-top: 40px;
     margin-left: 40px;
@@ -301,12 +248,12 @@ input[type=number]::-webkit-outer-spin-button {
 
 
 @media(max-width: 1050px) {
-    .flex {
+    .main {
         display: block;
         margin: 0 auto;
     }
 
-    .flex__element {
+    .main__element {
         margin: 0 auto;
     }
 
@@ -330,23 +277,24 @@ input[type=number]::-webkit-outer-spin-button {
         width: 90%;
     }
 
-    .flex__form-wrapper {
+    .main__form-wrapper {
         padding: 10px;
     }
 
-    .flex__element {
+    .main__element {
         width: 100%;
     }
 
-    .email__message {
+    /* .email__message {
         width: 100%;
-    }
+        height: 100px;
+    } */
 
     .bottom-logo {
         width: 80%;
     }
 
-    .flex__title {
+    .main__subtitle {
         font-size: 1.5em;
     }
 
@@ -358,9 +306,6 @@ input[type=number]::-webkit-outer-spin-button {
         margin-top: 1em;
     }
 
-    .email__message {
-        height: 100px;
-    }
 }
 
 @media(max-width:390px) {
