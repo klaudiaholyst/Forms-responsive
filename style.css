@@ -17,7 +17,7 @@ html {
     margin: 0 auto;
 }
 
-.main__subtitle {
+.box__subtitle {
     font-size: 32px;
     color: white;
     font-weight: 500;
@@ -44,7 +44,7 @@ html {
 }
 
 .input,
-.select,
+.select__field,
 .textarea {
     width: 100%;
     font-size: 16px;
@@ -79,7 +79,7 @@ html {
     width: 100%;
 }
 
-.main__form-wrapper {
+.box__form-wrapper {
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.23);
     padding: 20px;
@@ -118,11 +118,11 @@ html {
     background: url(img/glyphicons_139_phone.png) no-repeat 1em 50%, url(img/Shape\ 5.png) no-repeat  60px 50%, linear-gradient(#f6f6f6, #f0f0f0);
 }
 
-.select-wrapper {
+.select {
     position: relative;
 }
 
-.select-wrapper:after {
+.select:after {
     position: absolute;
     content: url('img/Shape\ 11.png');
     color: black;
@@ -131,7 +131,7 @@ html {
     pointer-events: none;
 }
 
-.select {
+.select__field {
     color: #afafaf;
     font-family: 'Titillium Web', sans-serif;
     font-weight: 300;
@@ -218,7 +218,7 @@ input[type="checkbox"]:checked+label:after {
     width: 150px;
 }
 
-.two-btns {
+.form__buttons {
     display: flex;
     justify-content: space-between;
 }
@@ -269,7 +269,7 @@ input[type="checkbox"]:checked+label:after {
         width: 90%;
     }
 
-    .main__form-wrapper {
+    .box__form-wrapper {
         padding: 10px;
     }
 
@@ -286,7 +286,7 @@ input[type="checkbox"]:checked+label:after {
         width: 80%;
     }
 
-    .main__subtitle {
+    .box__subtitle {
         font-size: 1.5em;
     }
 
